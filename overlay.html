@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webpage Info</title>
+  <link rel="stylesheet" href="overlay.css">
+</head>
+<body>
+  <div id="info-overlay" class="overlay-container">
+    <div class="overlay-header">
+      <h2>Webpage Information</h2>
+      <button id="close-overlay">X</button> 
+    </div>
+    <div class="overlay-content">
+      <!-- // this is the URL of the current page -->
+      <p><strong>URL:</strong> <span id="page-url"></span></p>
+      <!-- // this is the domain of the current page -->
+      <p><strong>Domain:</strong> <span id="page-domain"></span></p>
+      <!-- // this indicates if the page is served over HTTPS -->
+      <p><strong>HTTPS:</strong> <span id="page-https"></span></p>
+      <!-- // button to request cookie access -->
+      <button id="cookie-button">Grant Cookie Access</button>
+      <!-- // this will display the list of cookies if access is granted -->
+      <div id="cookie-list"></div>
+    </div>
+  </div>
+</body>
+</html>
