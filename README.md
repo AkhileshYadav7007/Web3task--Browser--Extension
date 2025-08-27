@@ -1,6 +1,8 @@
 ## Webpage Info & Cookie Viewer Extension
 
 This is a browser extension that shows basic details about the webpage you’re visiting, like the URL, domain, and if it’s using HTTPS. It can also display cookies for that domain, but only after you give permission.
+<img width="959" height="482" alt="image" src="https://github.com/user-attachments/assets/0c7c6a52-7465-464e-87fd-914ea72133f0" />
+
 
 ## How It Works (Design Overview)
 
